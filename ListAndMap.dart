@@ -9,6 +9,21 @@ void main() {
     "isMale": true,
     "Fruits" :fruits
   };
- print(myData["name"]);
+  // LIST
+ fruits.add("Mango");
+ fruits.addAll(["Guava","Litchi","Pomegranate"]);
+ fruits.sort();
+ bool istrue = fruits.contains("Banana");
+ var result = fruits.where((element) => element == "Grapes").toList();
+ print(result);
+ print(istrue);
+ print(fruits);
+
+// MAP
+ print(myData);
  print(myData["Fruits"]);
+ print(myData.keys.toList());
+ print(myData.values.toList());
+ print(myData.containsKey("isMale"));
+
 }
