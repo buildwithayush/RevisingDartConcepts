@@ -4,7 +4,7 @@ void main(){
   // can reside inside a class 
   // value assigned when accessed 
   final String name = "Ayush";
-  print(name);
+  print(name.toUpperCase());
 
   // const - compile time constant
   // cannot reside inside a class

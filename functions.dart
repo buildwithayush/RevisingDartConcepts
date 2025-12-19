@@ -1,5 +1,7 @@
 void main() {
 //  Add add = Add();
+String name = 'AyUsh';
+print(name.toLowerCase());
 
   print(Add.sumof2(7, 9));
 }
